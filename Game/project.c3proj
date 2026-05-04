@@ -1,0 +1,316 @@
+{
+	"projectFormatVersion": 1,
+	"savedWithRelease": 47603,
+	"name": "Genre26666620174546",
+	"runtime": "c3",
+	"useWorker": "auto",
+	"bundleAddons": false,
+	"usedAddons": [
+		{
+			"type": "plugin",
+			"id": "Audio",
+			"name": "Аудио",
+			"author": "Scirra",
+			"bundled": false
+		},
+		{
+			"type": "plugin",
+			"id": "Mouse",
+			"name": "Мышь",
+			"author": "Scirra",
+			"bundled": false
+		},
+		{
+			"type": "plugin",
+			"id": "Sprite",
+			"name": "Спрайт",
+			"author": "Scirra",
+			"bundled": false
+		},
+		{
+			"type": "plugin",
+			"id": "Text",
+			"name": "Текст",
+			"author": "Scirra",
+			"bundled": false
+		},
+		{
+			"type": "plugin",
+			"id": "TiledBg",
+			"name": "Тайловый фон",
+			"author": "Scirra",
+			"bundled": false
+		},
+		{
+			"type": "plugin",
+			"id": "Touch",
+			"name": "Тач",
+			"author": "Scirra",
+			"bundled": false
+		},
+		{
+			"type": "plugin",
+			"id": "googleplay",
+			"name": "Google Play",
+			"author": "Scirra",
+			"bundled": false
+		},
+		{
+			"type": "behavior",
+			"id": "Platform",
+			"name": "Платформер",
+			"author": "Scirra",
+			"bundled": false
+		},
+		{
+			"type": "behavior",
+			"id": "solid",
+			"name": "Твёрдый",
+			"author": "Scirra",
+			"bundled": false
+		}
+	],
+	"uniqueId": "h24wfhfbnsh",
+	"objectTypes": {
+		"items": [
+			"МонстрткПривидениеPhotoroom",
+			"ТайловыйФон",
+			"БезНазванияPhotoroom",
+			"БезНазванияPhotoroom2",
+			"БезНазванияPhotoroom3",
+			"БезНазванияPhotoroom4",
+			"abrakadabrafunpfondlyaplatformera",
+			"pngklevclubmx73plavadlyaigripng",
+			"abrakadabrafunpfondlyaplatformera2",
+			"Монета",
+			"GooglePlay",
+			"ПлиточнийФон",
+			"Спрайт",
+			"Текст",
+			"Текст2",
+			"ПлиточнийФон2",
+			"Миша",
+			"Аудіо",
+			"ПлиточнийФон3",
+			"Текст3",
+			"Спрайт2",
+			"Текст4",
+			"Спрайт3",
+			"завантаження",
+			"завантаженняremovebgpreview",
+			"ПлиточнийФон4",
+			"Спрайт4",
+			"Текст5",
+			"Спрайт5",
+			"Текст6",
+			"Спрайт6",
+			"БезНазвания",
+			"БезНазвания2",
+			"БезНазвания3",
+			"БезНазвания4",
+			"ТайловыйФон2",
+			"Тач",
+			"Спрайт7",
+			"Спрайт8",
+			"Спрайт9"
+		],
+		"subfolders": []
+	},
+	"functionsName": "Функции",
+	"autosaveData": null,
+	"containers": [],
+	"families": {
+		"items": [],
+		"subfolders": []
+	},
+	"layouts": {
+		"items": [
+			"Макет 1",
+			"Start",
+			"Рівень 1",
+			"Finish"
+		],
+		"subfolders": []
+	},
+	"eventSheets": {
+		"items": [
+			"Список событий 1"
+		],
+		"subfolders": []
+	},
+	"rootFileFolders": {
+		"script": {
+			"items": [],
+			"subfolders": []
+		},
+		"sound": {
+			"items": [
+				{
+					"name": "coins.webm",
+					"type": "audio/webm; codecs=opus",
+					"sid": 269254548318935,
+					"file-info": {
+						"purpose": "none"
+					}
+				}
+			],
+			"subfolders": []
+		},
+		"music": {
+			"items": [],
+			"subfolders": []
+		},
+		"video": {
+			"items": [],
+			"subfolders": []
+		},
+		"font": {
+			"items": [],
+			"subfolders": []
+		},
+		"icon": {
+			"items": [
+				{
+					"name": "Иконка-512.png",
+					"type": "image/png",
+					"sid": 515822617832906,
+					"icon-info": {
+						"purpose": "app-icon"
+					}
+				},
+				{
+					"name": "Иконка-загрузки.png",
+					"type": "image/png",
+					"sid": 119116002627753,
+					"icon-info": {
+						"purpose": "loading-logo"
+					}
+				},
+				{
+					"name": "Иконка-256.png",
+					"type": "image/png",
+					"sid": 205090002452459,
+					"icon-info": {
+						"purpose": "app-icon"
+					}
+				},
+				{
+					"name": "Иконка-64.png",
+					"type": "image/png",
+					"sid": 579933757982921,
+					"icon-info": {
+						"purpose": "app-icon"
+					}
+				},
+				{
+					"name": "Иконка-128.png",
+					"type": "image/png",
+					"sid": 186894757551999,
+					"icon-info": {
+						"purpose": "app-icon"
+					}
+				},
+				{
+					"name": "Иконка-32.png",
+					"type": "image/png",
+					"sid": 222120764590462,
+					"icon-info": {
+						"purpose": "app-icon"
+					}
+				},
+				{
+					"name": "Иконка-16.png",
+					"type": "image/png",
+					"sid": 334930830178048,
+					"icon-info": {
+						"purpose": "app-icon"
+					}
+				}
+			],
+			"subfolders": []
+		},
+		"general": {
+			"items": [],
+			"subfolders": []
+		}
+	},
+	"timelines": {
+		"items": [
+			"Шкала 1"
+		],
+		"subfolders": [
+			{
+				"items": [],
+				"subfolders": []
+			}
+		]
+	},
+	"flowcharts": {
+		"items": [
+			"Блок-схема 1"
+		],
+		"subfolders": []
+	},
+	"models3d": {
+		"items": [],
+		"subfolders": []
+	},
+	"properties": {
+		"description": "",
+		"version": "1.0.0.0",
+		"autoIncrementVersion": false,
+		"author": "",
+		"authorEmail": "",
+		"authorWebsite": "",
+		"appId": "",
+		"pixelRounding": false,
+		"zAxisScale": "regular",
+		"fov": 0.7853981633974483,
+		"useLoaderLayout": false,
+		"fullscreenMode": "letterbox-scale",
+		"fullscreenQuality": "high",
+		"viewportFit": "auto",
+		"backgroundColor": [
+			0,
+			0,
+			0,
+			0
+		],
+		"splashColor": [
+			1,
+			1,
+			1,
+			0
+		],
+		"useThemeColor": false,
+		"themeColor": [
+			1,
+			1,
+			1,
+			0
+		],
+		"orientations": "landscape",
+		"webgpu": "auto",
+		"multitexturing": "auto",
+		"gpuPreference": "high-performance",
+		"framerateMode": "vsync",
+		"fixedFramerate": 30,
+		"sampling": "trilinear",
+		"downscaling": "medium",
+		"renderingMode": "auto",
+		"anisotropicFiltering": "auto",
+		"zNear": 1,
+		"zFar": 10000,
+		"maxSpriteSheetSize": 2048,
+		"loaderStyle": "splash",
+		"preloadSounds": true,
+		"uidAllocationMode": "increment",
+		"cordovaiOSScheme": "app",
+		"cordovaAndroidScheme": "https",
+		"exportFileStructure": "folders",
+		"scriptsType": "module"
+	},
+	"viewportWidth": 7000,
+	"viewportHeight": 5000,
+	"firstLayout": null
+}

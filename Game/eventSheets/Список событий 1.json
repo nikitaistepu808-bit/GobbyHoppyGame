@@ -1,0 +1,214 @@
+{
+	"name": "Список событий 1",
+	"events": [
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "МонстрткПривидениеPhotoroom",
+					"sid": 245799176247168,
+					"parameters": {
+						"object": "pngklevclubmx73plavadlyaigripng"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 292990844792369,
+					"parameters": {
+						"layout": "Рівень 1"
+					}
+				}
+			],
+			"sid": 222308124236370
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "МонстрткПривидениеPhotoroom",
+					"sid": 528804181936166,
+					"parameters": {
+						"object": "Монета"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "destroy",
+					"objectClass": "Монета",
+					"sid": 874102525497476
+				},
+				{
+					"id": "play",
+					"objectClass": "Аудіо",
+					"sid": 914049919949476,
+					"parameters": {
+						"audio-file": {
+							"path": "coins"
+						},
+						"loop": "not-looping",
+						"volume": "0",
+						"stereo-pan": "0",
+						"tag-optional": "\"\""
+					}
+				}
+			],
+			"sid": 875501247737858
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-object-clicked",
+					"objectClass": "Миша",
+					"sid": 356081727567920,
+					"parameters": {
+						"mouse-button": "left",
+						"click-type": "clicked",
+						"object-clicked": "Спрайт"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 215918668837297,
+					"parameters": {
+						"layout": "Макет 1"
+					}
+				}
+			],
+			"sid": 904876600161774
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-object-clicked",
+					"objectClass": "Миша",
+					"sid": 783463636382625,
+					"parameters": {
+						"mouse-button": "left",
+						"click-type": "clicked",
+						"object-clicked": "Спрайт2"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 390376979010023,
+					"parameters": {
+						"layout": "Макет 1"
+					}
+				}
+			],
+			"sid": 578428836260389
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "МонстрткПривидениеPhotoroom",
+					"sid": 927408433987115,
+					"parameters": {
+						"object": "завантаженняremovebgpreview"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 929425482797749,
+					"parameters": {
+						"layout": "Finish"
+					}
+				}
+			],
+			"sid": 342668835959882
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-object-clicked",
+					"objectClass": "Миша",
+					"sid": 533133693064473,
+					"parameters": {
+						"mouse-button": "left",
+						"click-type": "clicked",
+						"object-clicked": "Спрайт5"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 395448034758968,
+					"parameters": {
+						"layout": "Макет 1"
+					}
+				}
+			],
+			"sid": 672632410249332
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "is-in-touch",
+					"objectClass": "Тач",
+					"sid": 479120741934072
+				}
+			],
+			"actions": [
+				{
+					"id": "simulate-control",
+					"objectClass": "МонстрткПривидениеPhotoroom",
+					"sid": 719835762636871,
+					"behaviorType": "Платформер",
+					"parameters": {
+						"control": "right"
+					}
+				}
+			],
+			"sid": 807413682789557
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-tap-object",
+					"objectClass": "Тач",
+					"sid": 260412680224740,
+					"parameters": {
+						"object": "Спрайт9"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "simulate-control",
+					"objectClass": "МонстрткПривидениеPhotoroom",
+					"sid": 648949037272106,
+					"behaviorType": "Платформер",
+					"parameters": {
+						"control": "jump"
+					}
+				}
+			],
+			"sid": 595850095482862
+		}
+	],
+	"sid": 211568764843362
+}

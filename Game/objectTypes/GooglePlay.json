@@ -1,0 +1,16 @@
+{
+	"name": "GooglePlay",
+	"plugin-id": "googleplay",
+	"sid": 661029845012275,
+	"singleglobal-inst": {
+		"type": "GooglePlay",
+		"properties": {
+			"application-id": "",
+			"client-id": "",
+			"game-id": ""
+		},
+		"uid": 10,
+		"sid": 134581588191486,
+		"tags": ""
+	}
+}
